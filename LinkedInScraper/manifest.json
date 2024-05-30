@@ -1,0 +1,16 @@
+{
+    "name": "Linkedin Scraper",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "identity",
+        "https://www.linkedin.com/*"
+
+    ],
+    "action": {
+        "default_popup": "app.js",
+        "default_icon": "logo.png"
+    }
+}
